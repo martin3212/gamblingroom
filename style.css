@@ -1,0 +1,11 @@
+.okvir{
+    width:60%;
+    height: 800px;
+    border-radius: 20px;
+    border:2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;  
+    background-color: white;
+    padding-top: 50px;
+}
