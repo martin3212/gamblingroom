@@ -11,6 +11,12 @@
 
             <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                 <input type="submit" name="roll_dice" value="Roll the Dice">
+                <label for="player1">Player 1:</label>
+                <input type="text" id="player1" name="players[]" required><br>
+                <label for="player2">Player 2:</label>
+                <input type="text" id="player2" name="players[]" required><br>
+                <label for="player3">Player 3:</label>
+                <input type="text" id="player3" name="players[]" required><br>
             </form>
 
 <?php
