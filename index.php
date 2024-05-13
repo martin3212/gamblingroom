@@ -3,57 +3,68 @@
     <head>
         <title>Gambling room</title>
         <link rel="stylesheet" href="style.css" type="text/css" media="all">
-        <link rel="shorcut icon" type="image/x-icon" href="slike/money.png">
+        <link rel="shortcut icon" type="image/x-icon" href="slike/money.png">
     </head>
     <body class="background">
         <div class="okvir">
-            
-
             <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                <input type="submit" name="roll_dice" value="Roll the Dice">
+                <label for="rounds">Number of Rounds:</label>
+                <input type="number" id="rounds" name="rounds" min="1" required><br>
                 <label for="player1">Player 1:</label>
                 <input type="text" id="player1" name="players[]" required><br>
                 <label for="player2">Player 2:</label>
                 <input type="text" id="player2" name="players[]" required><br>
                 <label for="player3">Player 3:</label>
                 <input type="text" id="player3" name="players[]" required><br>
+                <input type="submit" name="roll_dice" value="Roll the Dice">
             </form>
 
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['roll_dice'])) {
-    function rollDice() {
-        return rand(1, 6);
-    }
+            <?php
+            if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['roll_dice'])) {
+                function rollDice() {
+                    return rand(1, 6);
+                }
 
-    $players = array(
-        "Player 1",
-        "Player 2",
-        "Player 3"
-    );
+                if(isset($_POST['players']) && is_array($_POST['players'])) {
+                    $players = $_POST['players'];
+                } else {
+                    // Default player names
+                    $players = array("Player 1", "Player 2", "Player 3");
+                }
 
-    $results = array();
+                $rounds = isset($_POST['rounds']) ? intval($_POST['rounds']) : 1;
 
-    foreach ($players as $player) {
-        $roll = rollDice();
-        $results[$player] = $roll;
-        echo "$player rolled: $roll<br>";
-    }
+                $results = array();
+                $totals = array();
 
-    // Finding the winner
-    arsort($results);
-    $winner = key($results);
-    $winningRoll = current($results);
+                foreach ($players as $player) {
+                    $totals[$player] = 0; // Initialize total score for each player
+                }
 
-    echo "<br>$winner wins with a roll of $winningRoll!<br>";
+                for ($i = 1; $i <= $rounds; $i++) {
+                    echo "<h3>Round $i</h3>";
+                    foreach ($players as $player) {
+                        $roll = rollDice();
+                        $results[$player][$i] = $roll;
+                        $totals[$player] += $roll;
+                        echo "$player rolled: $roll<br>";
+                    }
+                }
 
-    // Display all rolls
-    echo "<br>Rolls Summary:<br>";
-    foreach ($results as $player => $roll) {
-        echo "$player rolled: $roll<br>";
-    }
-}
-?>
+                // Finding the winner
+                arsort($totals);
+                $winner = key($totals);
+                $winningScore = current($totals);
 
+                echo "<br>$winner wins with a total score of $winningScore!<br>";
+
+                // Display total scores for each player
+                echo "<br>Total Scores:<br>";
+                foreach ($totals as $player => $score) {
+                    echo "$player: $score<br>";
+                }
+            }
+            ?>
         </div>
     </body>
 </html>
