@@ -7,7 +7,8 @@
     </head>
     <body class="background">
         <div class="okvir">
-            <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+            <div class="naslov"><div class="slika1"></div><div class="dice"><h1>Dice Roll</h1></div><div class="slika2"></div></div>
+            <form class="vpis" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                 <label for="rounds">Number of Rounds:</label>
                 <input type="number" id="rounds" name="rounds" min="1" required><br>
                 <label for="player1">Player 1:</label>

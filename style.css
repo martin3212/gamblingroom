@@ -60,4 +60,53 @@ label {
     border-radius: 5px;
     padding: 10px;
     margin-top: 20px;
+    background-color: white;
+    width:50%;
+    margin:auto;
   }
+
+.vpis{
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: white;
+  width:50%;
+  margin:auto;
+}
+.naslov{
+  text-align: center;
+  height: 80px;
+  width: 50%;
+  margin:auto;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+  
+}
+.slika1{
+  height: 50px;
+  width:30%;
+  background-image:url(slike/dice.png) ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float:left;
+  margin-left: 30px;
+  margin-top: 5px;   
+}
+.dice{
+  float:left;
+  width:30%;
+  height: 50px;
+  margin-top: 5px;   
+}
+.slika2{
+  height: 50px;
+  width:30%;
+  background-image:url(slike/dice.png) ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float:left;
+  margin-top: 5px;     
+}
