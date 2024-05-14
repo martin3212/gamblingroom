@@ -40,7 +40,7 @@
                 foreach ($players as $player) {
                     $totals[$player] = 0; // Initialize total score for each player
                 }
-
+                echo "<div class='game-results'>";
                 for ($i = 1; $i <= $rounds; $i++) {
                     echo "<h3>Round $i</h3>";
                     foreach ($players as $player) {
@@ -63,6 +63,7 @@
                 foreach ($totals as $player => $score) {
                     echo "$player: $score<br>";
                 }
+                echo "</div>";
             }
             ?>
         </div>
