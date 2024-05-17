@@ -1,0 +1,810 @@
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => dsada
+                    [surname] => dsd
+                    [address] => sadada
+                    [dice] => Array
+                        (
+                        )
+
+                    [total_sum] => 0
+                )
+
+            [1] => Array
+                (
+                    [name] => asda
+                    [surname] => ad
+                    [address] => da
+                    [dice] => Array
+                        (
+                        )
+
+                    [total_sum] => 0
+                )
+
+            [2] => Array
+                (
+                    [name] => ds
+                    [surname] => as
+                    [address] => d
+                    [dice] => Array
+                        (
+                        )
+
+                    [total_sum] => 0
+                )
+
+        )
+
+    [rounds] => 3
+    [current_round] => 1
+)
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => dsada
+                    [surname] => dsd
+                    [address] => sadada
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 5
+                                    [2] => 4
+                                )
+
+                        )
+
+                    [total_sum] => 12
+                )
+
+            [1] => Array
+                (
+                    [name] => asda
+                    [surname] => ad
+                    [address] => da
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 4
+                                    [2] => 1
+                                )
+
+                        )
+
+                    [total_sum] => 8
+                )
+
+            [2] => Array
+                (
+                    [name] => ds
+                    [surname] => as
+                    [address] => d
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 5
+                                    [1] => 3
+                                    [2] => 4
+                                )
+
+                        )
+
+                    [total_sum] => 12
+                )
+
+        )
+
+    [rounds] => 3
+    [current_round] => 2
+)
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => dsada
+                    [surname] => dsd
+                    [address] => sadada
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 5
+                                    [2] => 4
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 6
+                                    [1] => 1
+                                    [2] => 6
+                                )
+
+                        )
+
+                    [total_sum] => 25
+                )
+
+            [1] => Array
+                (
+                    [name] => asda
+                    [surname] => ad
+                    [address] => da
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 4
+                                    [2] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 5
+                                    [1] => 2
+                                    [2] => 5
+                                )
+
+                        )
+
+                    [total_sum] => 20
+                )
+
+            [2] => Array
+                (
+                    [name] => asda
+                    [surname] => ad
+                    [address] => da
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 4
+                                    [2] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 1
+                                    [1] => 6
+                                    [2] => 1
+                                )
+
+                        )
+
+                    [total_sum] => 16
+                )
+
+        )
+
+    [rounds] => 3
+    [current_round] => 3
+)
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => dsada
+                    [surname] => dsd
+                    [address] => sadada
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 5
+                                    [2] => 4
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 6
+                                    [1] => 1
+                                    [2] => 6
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => 1
+                                    [1] => 4
+                                    [2] => 6
+                                )
+
+                        )
+
+                    [total_sum] => 36
+                )
+
+            [1] => Array
+                (
+                    [name] => asda
+                    [surname] => ad
+                    [address] => da
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 4
+                                    [2] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 5
+                                    [1] => 2
+                                    [2] => 5
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 6
+                                    [2] => 3
+                                )
+
+                        )
+
+                    [total_sum] => 32
+                )
+
+            [2] => Array
+                (
+                    [name] => asda
+                    [surname] => ad
+                    [address] => da
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 4
+                                    [2] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 5
+                                    [1] => 2
+                                    [2] => 5
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => 1
+                                    [1] => 5
+                                    [2] => 2
+                                )
+
+                        )
+
+                    [total_sum] => 28
+                )
+
+        )
+
+    [rounds] => 3
+    [current_round] => 4
+)
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Martin
+                    [surname] => dsa
+                    [address] => dsa
+                    [dice] => Array
+                        (
+                        )
+
+                    [total_sum] => 0
+                )
+
+            [1] => Array
+                (
+                    [name] => Luka
+                    [surname] => da
+                    [address] => fsfa
+                    [dice] => Array
+                        (
+                        )
+
+                    [total_sum] => 0
+                )
+
+            [2] => Array
+                (
+                    [name] => Miha
+                    [surname] => dfd
+                    [address] => gfgf
+                    [dice] => Array
+                        (
+                        )
+
+                    [total_sum] => 0
+                )
+
+        )
+
+    [rounds] => 3
+    [current_round] => 1
+)
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Martin
+                    [surname] => dsa
+                    [address] => dsa
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 4
+                                    [1] => 1
+                                    [2] => 4
+                                )
+
+                        )
+
+                    [total_sum] => 9
+                )
+
+            [1] => Array
+                (
+                    [name] => Luka
+                    [surname] => da
+                    [address] => fsfa
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 2
+                                    [1] => 3
+                                    [2] => 3
+                                )
+
+                        )
+
+                    [total_sum] => 8
+                )
+
+            [2] => Array
+                (
+                    [name] => Miha
+                    [surname] => dfd
+                    [address] => gfgf
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 2
+                                    [1] => 5
+                                    [2] => 3
+                                )
+
+                        )
+
+                    [total_sum] => 10
+                )
+
+        )
+
+    [rounds] => 3
+    [current_round] => 2
+)
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Martin
+                    [surname] => dsa
+                    [address] => dsa
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 4
+                                    [1] => 1
+                                    [2] => 4
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 6
+                                    [1] => 3
+                                    [2] => 4
+                                )
+
+                        )
+
+                    [total_sum] => 22
+                )
+
+            [1] => Array
+                (
+                    [name] => Luka
+                    [surname] => da
+                    [address] => fsfa
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 2
+                                    [1] => 3
+                                    [2] => 3
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 5
+                                    [1] => 1
+                                    [2] => 6
+                                )
+
+                        )
+
+                    [total_sum] => 20
+                )
+
+            [2] => Array
+                (
+                    [name] => Luka
+                    [surname] => da
+                    [address] => fsfa
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 2
+                                    [1] => 3
+                                    [2] => 3
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 4
+                                    [1] => 6
+                                    [2] => 1
+                                )
+
+                        )
+
+                    [total_sum] => 19
+                )
+
+        )
+
+    [rounds] => 3
+    [current_round] => 3
+)
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Martin
+                    [surname] => dsa
+                    [address] => dsa
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 4
+                                    [1] => 1
+                                    [2] => 4
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 6
+                                    [1] => 3
+                                    [2] => 4
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => 4
+                                    [1] => 2
+                                    [2] => 3
+                                )
+
+                        )
+
+                    [total_sum] => 31
+                )
+
+            [1] => Array
+                (
+                    [name] => Luka
+                    [surname] => da
+                    [address] => fsfa
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 2
+                                    [1] => 3
+                                    [2] => 3
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 5
+                                    [1] => 1
+                                    [2] => 6
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => 1
+                                    [1] => 2
+                                    [2] => 6
+                                )
+
+                        )
+
+                    [total_sum] => 29
+                )
+
+            [2] => Array
+                (
+                    [name] => Luka
+                    [surname] => da
+                    [address] => fsfa
+                    [dice] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 2
+                                    [1] => 3
+                                    [2] => 3
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 5
+                                    [1] => 1
+                                    [2] => 6
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 2
+                                    [2] => 2
+                                )
+
+                        )
+
+                    [total_sum] => 27
+                )
+
+        )
+
+    [rounds] => 3
+    [current_round] => 4
+)
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Martin
+                    [surname] => sa
+                    [address] => sds
+                    [dice] => Array
+                        (
+                        )
+
+                    [total_sum] => 0
+                )
+
+            [1] => Array
+                (
+                    [name] => Luka
+                    [surname] => sds
+                    [address] => ds
+                    [dice] => Array
+                        (
+                        )
+
+                    [total_sum] => 0
+                )
+
+            [2] => Array
+                (
+                    [name] => Miha
+                    [surname] => sdsa
+                    [address] => csdsd
+                    [dice] => Array
+                        (
+                        )
+
+                    [total_sum] => 0
+                )
+
+        )
+
+    [rounds] => 3
+    [current_round] => 1
+)
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Martin
+                    [surname] => sa
+                    [address] => sds
+                    [dice] => Array
+                        (
+                            [0] => 5
+                        )
+
+                    [total_sum] => 5
+                )
+
+            [1] => Array
+                (
+                    [name] => Luka
+                    [surname] => sds
+                    [address] => ds
+                    [dice] => Array
+                        (
+                            [0] => 6
+                        )
+
+                    [total_sum] => 6
+                )
+
+            [2] => Array
+                (
+                    [name] => Miha
+                    [surname] => sdsa
+                    [address] => csdsd
+                    [dice] => Array
+                        (
+                            [0] => 2
+                        )
+
+                    [total_sum] => 2
+                )
+
+        )
+
+    [rounds] => 3
+    [current_round] => 2
+)
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Martin
+                    [surname] => sa
+                    [address] => sds
+                    [dice] => Array
+                        (
+                            [0] => 5
+                            [1] => 3
+                        )
+
+                    [total_sum] => 8
+                )
+
+            [1] => Array
+                (
+                    [name] => Luka
+                    [surname] => sds
+                    [address] => ds
+                    [dice] => Array
+                        (
+                            [0] => 6
+                            [1] => 6
+                        )
+
+                    [total_sum] => 12
+                )
+
+            [2] => Array
+                (
+                    [name] => Luka
+                    [surname] => sds
+                    [address] => ds
+                    [dice] => Array
+                        (
+                            [0] => 6
+                            [1] => 3
+                        )
+
+                    [total_sum] => 9
+                )
+
+        )
+
+    [rounds] => 3
+    [current_round] => 3
+)
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Martin
+                    [surname] => sa
+                    [address] => sds
+                    [dice] => Array
+                        (
+                            [0] => 5
+                            [1] => 3
+                            [2] => 6
+                        )
+
+                    [total_sum] => 14
+                )
+
+            [1] => Array
+                (
+                    [name] => Luka
+                    [surname] => sds
+                    [address] => ds
+                    [dice] => Array
+                        (
+                            [0] => 6
+                            [1] => 6
+                            [2] => 5
+                        )
+
+                    [total_sum] => 17
+                )
+
+            [2] => Array
+                (
+                    [name] => Luka
+                    [surname] => sds
+                    [address] => ds
+                    [dice] => Array
+                        (
+                            [0] => 6
+                            [1] => 6
+                            [2] => 3
+                        )
+
+                    [total_sum] => 15
+                )
+
+        )
+
+    [rounds] => 3
+    [current_round] => 4
+)
