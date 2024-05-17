@@ -37,39 +37,45 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['users']) && isset($_PO
 <head>
     <meta charset="UTF-8">
     <title>Dice Game</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <link rel="shorcut icon" type="image/x-icon" href="slike/money.png">
 </head>
 <body>
+<div class="obrazec">
     <h1>Enter User Details and Number of Rounds</h1>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-        <div>
+        <div class="oseba1">
             <label for="user1_name">User 1 Name:</label>
-            <input type="text" id="user1_name" name="users[0][name]" required>
+            <input type="text" id="user1_name" name="users[0][name]" required><br>
             <label for="user1_surname">User 1 Surname:</label>
-            <input type="text" id="user1_surname" name="users[0][surname]" required>
+            <input type="text" id="user1_surname" name="users[0][surname]" required><br>
             <label for="user1_address">User 1 Address:</label>
             <input type="text" id="user1_address" name="users[0][address]" required>
         </div>
-        <div>
+        <div class="oseba2">
             <label for="user2_name">User 2 Name:</label>
-            <input type="text" id="user2_name" name="users[1][name]" required>
+            <input type="text" id="user2_name" name="users[1][name]" required><br>
             <label for="user2_surname">User 2 Surname:</label>
-            <input type="text" id="user2_surname" name="users[1][surname]" required>
+            <input type="text" id="user2_surname" name="users[1][surname]" required><br>
             <label for="user2_address">User 2 Address:</label>
             <input type="text" id="user2_address" name="users[1][address]" required>
         </div>
-        <div>
+        <div class="oseba3">
             <label for="user3_name">User 3 Name:</label>
-            <input type="text" id="user3_name" name="users[2][name]" required>
+            <input type="text" id="user3_name" name="users[2][name]" required><br>
             <label for="user3_surname">User 3 Surname:</label>
-            <input type="text" id="user3_surname" name="users[2][surname]" required>
+            <input type="text" id="user3_surname" name="users[2][surname]" required><br>
             <label for="user3_address">User 3 Address:</label>
             <input type="text" id="user3_address" name="users[2][address]" required>
         </div>
-        <div>
+        <div class="rounds">
             <label for="rounds">Number of Rounds:</label>
-            <input type="number" id="rounds" name="rounds" min="1" required>
-        </div>
-        <button type="submit">Submit</button>
+            <input type="number" id="rounds" name="rounds" min="1" required><br>
+		</div>
+		<button id="play" type="submit">Submit</button>
     </form>
+	
+	<div id="clear"></div>
+</div>	
 </body>
 </html>

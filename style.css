@@ -1,112 +1,61 @@
-.okvir{
-    width:60%;
-    height: 1200px;
-    border-radius: 20px;
-    border:2px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;  
-    background:url(slike/ozdadje.png);
-    padding-top: 50px;
-    margin-top: 110px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+*{
+	margin: 0;
+	padding: 0;
 }
-.background{
-    background-color: rgb(14, 104, 14);
+body{
+    background-color: rgb(14, 104, 14);   
 }
-input[type="submit"] {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
+.obrazec{
+	width:60%;
+	min-height:60px;
+	margin: 30px auto 0;
+	background-color:white;
+	border-radius:15px;
+	border:2px solid black;
+}
+.oseba1{
+	width:30%;
+	height:20%;
+	float:left;
+	border-radius:15px;
+	border:2px solid black;
+}
+.oseba2{
+	width:30%;
+	height:20%;
+	float:left;
+	border-radius:15px;
+	border:2px solid black;
+}
+
+.oseba3{
+	width:30%;
+	height:20%;
+	float:left;
+	border-radius:15px;
+	border:2px solid black;
+}
+.rounds{
+	float:left;
+	width:30%;
+	height:20%;
+	border-radius:15px;
+	border:2px solid black;
+}
+#clear{
+	clear:both;
+}
+#play{
+    width: 100px;
+    height: 35px;
+    border: 2px solid blue;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
-}
-
-label {
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  input[type="text"],
-  input[type="number"] {
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
+    padding-top: 12px;
+    font-size: 20px;
+    float: left;
+    margin-right: 100px;
+    margin-left: 210px;
+    background-color: blue;
+    color:white;
     border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  input[type="text"]:focus,
-  input[type="number"]:focus {
-    border-color: #007bff; /* Blue */
-    outline: none;
-  }
-  
-  input[type="text"]:hover,
-  input[type="number"]:hover {
-    border-color: #66afe9; /* Light Blue */
-  }
-
-  .game-results {
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 20px;
-    background-color: white;
-    width:50%;
-    margin:auto;
-  }
-
-.vpis{
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  margin-top: 20px;
-  background-color: white;
-  width:50%;
-  margin:auto;
-}
-.naslov{
-  text-align: center;
-  height: 80px;
-  width: 50%;
-  margin:auto;
-  background-color: white;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  
-  
-}
-.slika1{
-  height: 50px;
-  width:30%;
-  background-image:url(slike/dice.png) ;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  float:left;
-  margin-left: 30px;
-  margin-top: 5px;   
-}
-.dice{
-  float:left;
-  width:30%;
-  height: 50px;
-  margin-top: 5px;   
-}
-.slika2{
-  height: 50px;
-  width:30%;
-  background-image:url(slike/dice.png) ;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  float:left;
-  margin-top: 5px;     
 }
