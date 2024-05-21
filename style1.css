@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("slike/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    min-height: 300px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h1, .title h2 {
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+}
+
+.user {
+    width: calc(33.333% - 40px);
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user h2, .user p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.user .dice-rolls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user .dice-rolls img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+button {
+    width: 100px;
+    height: 45px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px auto;
+    display: block;
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: red;
+    color: black;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensures the container spans the full width */
+    margin-top: 20px; /* Adds spacing between users and the button */
+}
+
+#winner {
+    background-color: yellow; /* Highlight winner with a yellow background */
+    border: 2px solid black; /* Add a gold border for the winner */
+    border-radius: 20px;
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points from all unordered lists */
+    padding-left: 0; /* Remove default padding */
+}
+
+ul li {
+    display: flex; /* Align the images nicely */
+    align-items: center;
+    margin-bottom: 5px; /* Add some spacing between list items */
+}
+.Wizpis{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
